@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KafkaDotNet.Contracts/KafkaDotNet.Contracts.csproj" />
+    <Project Path="src/KafkaDotNet.Messaging/KafkaDotNet.Messaging.csproj" />
+    <Project Path="src/KafkaDotNet.OrderApi/KafkaDotNet.OrderApi.csproj" />
+    <Project Path="src/KafkaDotNet.OrderProcessor/KafkaDotNet.OrderProcessor.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KafkaDotNet.Tests/KafkaDotNet.Tests.csproj" />
+  </Folder>
+</Solution>

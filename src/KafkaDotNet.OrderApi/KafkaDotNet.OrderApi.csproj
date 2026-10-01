@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KafkaDotNet.Contracts\KafkaDotNet.Contracts.csproj" />
+    <ProjectReference Include="..\KafkaDotNet.Messaging\KafkaDotNet.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>
